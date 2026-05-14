@@ -379,7 +379,86 @@ const projects = [
     contributions: [],
     displayImage: "/projects/screenshots/velotransact/velo.webp",
   },
+  {
+    title: "TaskManagerHQ",
+    slug: "taskmanagerhq",
+    description:
+      "Full-stack task management platform with role-based access control, real-time updates, and team collaboration features",
+    link: "https://taskmanagerhq.netlify.app/",
+    tags: [
+      "MEAN Stack",
+      "Angular 19",
+      "Node.js",
+      "MongoDB",
+      "Express.js",
+      "Socket.IO",
+      "JWT",
+      "Tailwind CSS",
+    ],
 
+    images: [
+      "/projects/screenshots/taskmanagerhq/1.png",
+      "/projects/screenshots/taskmanagerhq/2.png",
+      "/projects/screenshots/taskmanagerhq/3.png",
+      "/projects/screenshots/taskmanagerhq/4.png",
+      "/projects/screenshots/taskmanagerhq/5.png",
+    ],
+    fullPageImages: [
+      "/projects/screenshots/taskmanagerhq/1.png",
+      "/projects/screenshots/taskmanagerhq/3.png",
+      "/projects/screenshots/taskmanagerhq/4.png",
+      "/projects/screenshots/taskmanagerhq/5.png",
+    ],
+    features: [
+      {
+        title: "Role-Based Access Control",
+        icon: <ShieldCheck size={20} />,
+        description:
+          "Implemented secure JWT authentication with role-based permissions for Managers, Team Leads, and Employees.",
+      },
+      {
+        title: "Real-Time Task Synchronization",
+        icon: <Activity size={20} />,
+        description:
+          "Integrated Socket.IO for live task creation, updates, deletions, and instant dashboard synchronization across users.",
+      },
+      {
+        title: "Advanced Task Management",
+        icon: <ClipboardList size={20} />,
+        description:
+          "Users can create, edit, assign, delete, and filter tasks with dynamic workflows tailored to different user roles.",
+      },
+      {
+        title: "Team Collaboration System",
+        icon: <Users size={20} />,
+        description:
+          "Managers can assign employees to team leads while team leads can manage and distribute tasks across their teams.",
+      },
+      {
+        title: "Responsive Dashboard UI",
+        icon: <LayoutDashboard size={20} />,
+        description:
+          "Built a clean and responsive Angular dashboard with Tailwind CSS for seamless task tracking on all devices.",
+      },
+      {
+        title: "Scalable Backend Architecture",
+        icon: <Server size={20} />,
+        description:
+          "Structured backend using Express.js, Mongoose, and modular architecture for scalable API and business logic management.",
+      },
+    ],
+
+    contributions: [
+      "Developed the full-stack application using Angular 19, Node.js, Express.js, and MongoDB.",
+      "Implemented JWT authentication and secure role-based authorization for Managers, Team Leads, and Employees.",
+      "Built real-time task synchronization features using Socket.IO for instant updates across dashboards.",
+      "Designed responsive dashboards and task management interfaces using Tailwind CSS.",
+      "Created scalable REST APIs for authentication, task operations, user management, and team assignments.",
+      "Integrated MongoDB Atlas and optimized backend structure using controllers, routes, middlewares, and models architecture.",
+    ],
+
+    displayImage: "/projects/screenshots/taskmanagerhq/1.png",
+  },
   {
     title: "Aadvico",
     slug: "aadvico",
